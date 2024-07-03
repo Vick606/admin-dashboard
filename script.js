@@ -67,6 +67,15 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         trendingCard.appendChild(categoryElement);
     });
+// Responsive sidebar toggle (for mobile)
+const sidebarToggle = document.createElement('button');
+sidebarToggle.innerHTML = '☰';
+sidebarToggle.classList.add('sidebar-toggle');
+document.body.appendChild(sidebarToggle);
 
+sidebarToggle.addEventListener('click', () => {
+    document.querySelector('.sidebar').classList.toggle('active');
+});
+});
 
 
