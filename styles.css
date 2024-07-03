@@ -126,11 +126,19 @@ body {
 }
 
 .icon {
+    font-size: 24px;
     width: 24px;
     height: 24px;
-    fill: currentColor; 
-    vertical-align: middle;
-    margin-right: 8px; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar .icon {
+    color: white;
+}
+
+.header .icon, .main-content .icon {
+    color: var(--primary-color);
 }
 @media (max-width: 768px) {
     .container {
