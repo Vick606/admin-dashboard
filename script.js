@@ -46,4 +46,27 @@ document.addEventListener('DOMContentLoaded', () => {
         announcementCard.appendChild(updateElement);
     });
 
-    
+    // Populate Top Categories
+    const topCategories = [
+        { name: "Generative AI", trend: "Rising" },
+        { name: "Weight Loss", trend: "Stable" },
+        { name: "Remote Work", trend: "Rising" },
+        { name: "Cybersecurity", trend: "New" }
+    ];
+
+    const trendingCard = document.querySelector('.trending-card');
+    topCategories.forEach(category => {
+        const categoryElement = document.createElement('div');
+        categoryElement.classList.add('trend-item');
+        categoryElement.innerHTML = `
+            <svg class="icon"><!-- Category icon --></svg>
+            <div>
+                <p>${category.name}</p>
+                <p>${category.trend}</p>
+            </div>
+        `;
+        trendingCard.appendChild(categoryElement);
+    });
+
+
+
