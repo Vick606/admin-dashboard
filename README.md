@@ -27,18 +27,18 @@ Our sleek, intuitive dashboard is designed to make content creation a breeze:
 - Vanilla JavaScript for interactivity (who needs frameworks when you're this cool?)
 - A sprinkle of SVG icons for that extra zing
 
-Getting Started
+## Getting Started
 
 1. Clone this repo (go on, you know you want to)
 2. Open `index.html` in your browser
 3. Marvel at the sheer awesomeness of your new content command center
 
-Customization
+## Customization
 
 Feel free to tweak the colors, fonts, and layout to match your brand's personality. 
 Just remember – with great power comes great responsibility. Don't go overboard with the Comic Sans, okay?
 
-Contributing
+## Contributing
 
 Got an idea to make BlogCraft even more amazing? We're all ears! Fork this repo, make your changes, and show us what you've got in a pull request.
 
