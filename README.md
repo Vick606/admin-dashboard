@@ -5,7 +5,7 @@ Welcome to BlogCraft, where words meet innovation! 🚀✍️
 
 About the Project
 
-This project is part of my coding refreshment sessions courtesy of the Odin Project. The primary objective is to create an admin dashboard based to implement and hone various skills learned throught the course, so far. 
+This project is part of my coding refreshment sessions courtesy of the Odin Project. The primary objective is to create an admin dashboard to implement and hone various skills learned throughout the course, so far. 
 
 For this project, I decided to create a dashboard for an imaginary online service themed "BlogCraft."
 BlogCraft is not just another content mill – it's a revolutionary platform connecting businesses with top-tier freelance writers specializing in cutting-edge topics. From the mysteries of generative AI to the secrets of sustainable weight loss and the art of remote work productivity, our writers craft engaging, informative, and SEO-optimized blog posts that captivate readers and drive results.
