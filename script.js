@@ -25,4 +25,25 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         projectGrid.appendChild(card);
     });
+
+    // Populate Writer Updates
+    const writerUpdates = [
+        { name: "Emma Thompson", update: "Completed AI ethics course" },
+        { name: "Michael Chen", update: "Achieved top-rated writer status" },
+        { name: "Sophia Rodriguez", update: "Specialized in keto diet content" }
+    ];
+
+    const announcementCard = document.querySelector('.announcement-card');
+    writerUpdates.forEach((update, index) => {
+        const updateElement = document.createElement('div');
+        updateElement.innerHTML = `
+            <h4>${update.name}</h4>
+            <p>${update.update}</p>
+        `;
+        if (index < writerUpdates.length - 1) {
+            updateElement.innerHTML += '<hr>';
+        }
+        announcementCard.appendChild(updateElement);
+    });
+
     
