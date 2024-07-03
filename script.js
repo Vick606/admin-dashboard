@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { title: "Mindful Eating for Sustainable Weight Loss", client: "Wellness Today", category: "Weight Loss", deadline: "2024-08-22" },
         { title: "Building a Strong Remote Work Culture", client: "HR Innovators", category: "Remote Work", deadline: "2024-07-30" }
     ];
-
     const projectGrid = document.querySelector('.project-grid');
     projects.forEach(project => {
         const card = document.createElement('div');
@@ -26,13 +25,12 @@ document.addEventListener('DOMContentLoaded', () => {
         projectGrid.appendChild(card);
     });
 
-    // Populate Writer Updates
+    // Writer Updates
     const writerUpdates = [
         { name: "Emma Thompson", update: "Completed AI ethics course" },
         { name: "Michael Chen", update: "Achieved top-rated writer status" },
         { name: "Sophia Rodriguez", update: "Specialized in keto diet content" }
     ];
-
     const announcementCard = document.querySelector('.announcement-card');
     writerUpdates.forEach((update, index) => {
         const updateElement = document.createElement('div');
@@ -45,8 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         announcementCard.appendChild(updateElement);
     });
-
-    // Populate Top Categories
+    // Top Categories
     const topCategories = [
         { name: "Generative AI", trend: "Rising" },
         { name: "Weight Loss", trend: "Stable" },
@@ -67,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         trendingCard.appendChild(categoryElement);
     });
-// Responsive sidebar toggle (for mobile)
+// Responsive sidebar toggle for mobile
 const sidebarToggle = document.createElement('button');
 sidebarToggle.innerHTML = '☰';
 sidebarToggle.classList.add('sidebar-toggle');
