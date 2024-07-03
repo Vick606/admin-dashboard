@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
         card.classList.add('project-card');
         card.innerHTML = `
             <h3>${project.title}</h3>
-            <p>Client: ${project.client}</p>
-            <p>Category: ${project.category}</p>
-            <p>Deadline: ${project.deadline}</p>
-            <div class="card-actions">
-                <svg class="icon"><!-- Edit icon --></svg>
-                <svg class="icon"><!-- Chat icon --></svg>
-                <svg class="icon"><!-- Submit icon --></svg>
+    <p>Client: ${project.client}</p>
+    <p>Category: ${project.category}</p>
+    <p>Deadline: ${project.deadline}</p>
+    <div class="card-actions">
+        <i class="mdi mdi-pencil icon"></i>
+        <i class="mdi mdi-chat icon"></i>
+        <i class="mdi mdi-check icon"></i>
             </div>
         `;
         projectGrid.appendChild(card);
@@ -59,10 +59,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const categoryElement = document.createElement('div');
         categoryElement.classList.add('trend-item');
         categoryElement.innerHTML = `
-            <svg class="icon"><!-- Category icon --></svg>
-            <div>
-                <p>${category.name}</p>
-                <p>${category.trend}</p>
+            <i class="mdi mdi-trending-up icon"></i>
+    <div>
+        <p>${category.name}</p>
+        <p>${category.trend}</p>
             </div>
         `;
         trendingCard.appendChild(categoryElement);
